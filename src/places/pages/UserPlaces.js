@@ -5,7 +5,7 @@ import PlaceList from "../components/PlaceList";
 
 const DUMMY_PLACES = [
     {
-        id:'p1',
+        id: 'p1',
         title: 'Empire State Building',
         description: 'One of the famous sky scrapper in the world',
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg',
@@ -17,7 +17,7 @@ const DUMMY_PLACES = [
         creator: 'u1'
     },
     {
-        id:'p2',
+        id: 'p2',
         title: 'Empire State Building',
         description: 'One of the famous sky scrapper in the world',
         imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg',
@@ -36,4 +36,4 @@ const UserPlaces = props => {
     return <PlaceList items={loadedPlaces} />
 };
 
-export  default UserPlaces;
+export default UserPlaces;
